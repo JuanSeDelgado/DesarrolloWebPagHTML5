@@ -213,10 +213,11 @@ img {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .video__responsive {
-    width: 30rem;
-    height: 24rem;
+    width: 80rem;
+    height: 48rem;
+    
   }
 }
 
